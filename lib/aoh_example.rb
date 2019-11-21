@@ -16,6 +16,13 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
+  [
+    { assembled_aoh[0][:name], assembled_aoh[0][:occupation] },
+    { assembled_aoh[1][:name], assembled_aoh[1][:occupation] },
+    { assembled_aoh[2][:name], assembled_aoh[2][:occupation] },
+    { assembled_aoh[3][:name], assembled_aoh[3][:occupation] },
+    { assembled_aoh[4][:name], assembled_aoh[4][:occupation] }
+    ]
 end
 
 def aoh_lookup(aoh, row, key)
