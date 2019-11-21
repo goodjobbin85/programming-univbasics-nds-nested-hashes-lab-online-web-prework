@@ -18,7 +18,7 @@ def literal_aoh
   # held in the constants
   [
     { name: "Don Gately", occupation: "Live-in Staff" },
-    { },
+    { name: "Joelle van Dyne", occupation: "Radio Personality"},
     {  },
     {  },
     {  }
